@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 읽을 수 있음
  */
 /*
- * 수정중ddddddsss
+ * 수정중ddddddsffffss
  */
 public class ScannerEx {
 	public static void main(String[] args) {
