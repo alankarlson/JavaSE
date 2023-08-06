@@ -28,7 +28,7 @@ public class Variable06 {
 	
 		String hello = "hello";
 		System.out.println("1번 인덱스: " + hello.charAt(1));
-		System.out.println("2번 인덱스: " + hello.charAt(2));
+		System.out.println("3번 인덱스: " + hello.charAt(3));
 		System.out.println("4번 인덱스: " + hello.charAt(4));
 		System.out.println("1번 인덱스부터 4번 인덱스 전까지: " + hello.substring(1, 4));
 		
