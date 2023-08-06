@@ -21,12 +21,11 @@ public class Variable06 {
 		System.out.println("str: " + str);
 		
 		/*
-		 * 
 		 * h e l l o
 		 * 0 1 2 3 4 	=> 인덱스번호
-		 * 
+		 * 수정(커밋확인)
 		 */
-		
+	
 		String hello = "hello";
 		System.out.println("1번 인덱스: " + hello.charAt(1));
 		System.out.println("2번 인덱스: " + hello.charAt(2));
