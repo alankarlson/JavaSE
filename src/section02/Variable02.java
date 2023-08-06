@@ -19,8 +19,8 @@ public class Variable02 {
 		System.out.println("char형 변수에 저장된 문자: " + ch1);
 		
 		char ch2, ch3;
-		ch2 = '신';
-		ch3 = '이';
+		ch2 = '이';
+		ch3 = '완';
 		System.out.println("ch2 저장된 문자:" + ch2);
 		System.out.println("ch3 저장된 문자:" + ch3);
 		
