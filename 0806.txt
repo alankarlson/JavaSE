@@ -1,0 +1,73 @@
+
+8/6
+
+스캐너 - 자바 기본 제공 클라스
+
+----
+
+깃허브
+구글 github 검색
+
+강사님 깃허브 : github.com/dobby2024
+
+--
+이클립스 깃허브 공유방법
+
+프로젝트 우클릭 - 팀 - 셰어 프로젝트 - use or creat re... check
+경로 클릭 - create rep..누르면 .git 뜸 - 피니시
+
+우클릭- 팀 - 커밋 : git staging 탭이 뜸
+(깃 저장공간에 올릴 파일 고르는 것)
+
+- 스테이징 (목록, 인덱스를 알려주는 것)
+- 커밋 : 내용까지 전송하는 것 (커밋 시 주석 남기기)
+
+---
+깃허브 토큰발급방법
+
+프로필 - settings - 좌측하단 developer settings
+
+personal access to.. 
+tokens(classic) -> generate new token(classic)
+
+note작성 - repo 체크 - 맨아래 generate token버튼클릭
+
+토큰값 생성됨(비번대신쓸수있는)
+
+
+team - 우클릭 - push branch master
+
+user : 깃허브이메일
+패스워드 : 토큰값
+
+-preview 두번누르고 - push
+
+----git 설치하고 컴퓨터에 메타정보 등록해야 함?????
+
+--
+프로젝트삭제하고 나서)
+git에있는거 설치하기
+
+import project - git 
+
+project from git - clone uri - (정보입력) -  next... 
+
+
+**수정된부분만 다운받기)
+
+*프로젝트 우클릭 - 팀 - pull
+
+
+**
+git 단계
+create repository -> git nit
+index -> git add 
+로컬 저장 -> git commit
+리모트 등록 -> git add <url>
+리모트 저장 ->  git push
+
+처음 내려받기 -> git clone
+수정된파일 내려받기 -> git pull
+
+----
+
