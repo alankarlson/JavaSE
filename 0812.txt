@@ -1,0 +1,12 @@
+
+0812
+
+
+깃허브 다른사람껄로 바뀌었을때 
+주소바꾸는거
+
+프로젝트우클릭 - team - remote - push - custom URI에
+정보입력후 next
+
+
+source ref에 master branch - >  add spec 클릭
