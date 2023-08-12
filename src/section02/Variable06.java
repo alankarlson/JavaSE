@@ -43,7 +43,7 @@ public class Variable06 {
 		} else {
 			System.out.println("특별시민이 아닙니다.");
 		}
-		
+		 
 	}
 
 }

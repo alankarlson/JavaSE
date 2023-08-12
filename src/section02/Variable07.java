@@ -32,7 +32,7 @@ public class Variable07 {
 		int iInt3 = (int)iFloat2; // 소수점 뒷자리 날리고 싶을때 이런식으로 함
 		System.out.println("iInt3: " + iInt3);
 		
-		//내연습 (double -> float) -- d15, f7 왜 손실? 
+		//내연습 (double -> float) 
 		double iDouble2 = 10.24444;
 		float iFloat3 = (float)iDouble2;
 		System.out.println("IFloat3: " + iFloat3);
