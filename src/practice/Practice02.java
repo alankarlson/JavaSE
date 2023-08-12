@@ -6,6 +6,7 @@ public class Practice02 {
 		int b = 4;
 		int c = 6;
 		int d = 2;
+		int e = 5;
 		
 		System.out.println("a * b = " + a * b);
 		
