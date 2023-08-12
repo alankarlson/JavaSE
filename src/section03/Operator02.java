@@ -17,9 +17,11 @@ public class Operator02 {
 		System.out.println(num);	// num: 2
 		
 		// 전위 증감연산자: 명령어가 실행전 1증가 / 우선순위 최우선이라 println보다 먼저 실행됨
+			
 		System.out.println(++num); 	// num: 3
 		
-		// 후위 증감연산자: 명령어가 실행후 1증가 / println이 더 먼저 실행됨
+	// 후위 증감연산자: 명령어가 실행후 1증가 / println이 더 먼저 실행됨
+		
 		System.out.println(num++); 	// num: 3
 		System.out.println(num); 	// num: 4
 		

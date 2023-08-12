@@ -17,7 +17,6 @@ public class Comment {
 		
 		getArea(10);
 		
-
 	}
 	
 	/**
