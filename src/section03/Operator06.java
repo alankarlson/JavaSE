@@ -23,8 +23,11 @@ public class Operator06 {
 		System.out.println("num1 | num2: " + (num1 | num2));
 		System.out.println("num1 ^ num2: " + (num1 ^ num2));
 		
-		System.out.println("~num1: " + ~num1); 
+		// 3: 0 0011
+		//~3: 1 1100 -> -12?? 아니라 -4로 출력, why?? (4의 2의 보수??)
+		// 컴퓨터는 음수를 2의 보수로 생각한다. (부호비트 1일땐 수치비트를 1의보수로 생각.)
 		
+		System.out.println("~num1: " + ~num1); 
 		
 	}
 
