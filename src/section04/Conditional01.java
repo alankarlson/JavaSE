@@ -13,7 +13,7 @@ package section04;
  * 	} 
  * 
  * 	if(조건식)
- * 		조건식이 true일 때 실행명령문 (명령문 한줄(;) 중괄호 생략 가능)
+ * 		조건식이 true일 때 실행명령문 (세미콜론 기준으로 명령문 하나일 때(;) 중괄호 생략 가능)
  * 
  */
 public class Conditional01 {

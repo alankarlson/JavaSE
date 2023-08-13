@@ -28,7 +28,7 @@ public class Practice01 {
 		System.out.printf("반가워요 %s님!\n", name);
 		System.out.printf("%s에 사시는군요?\n", address);
 		System.out.printf("%d살이시라고요?\n", age);
-		System.out.printf("몸무게가 %.1fkg이라고요? 그걸 왜 말씀하시는...? 일단 알겠습니다.\n", weight);
+		System.out.printf("몸무게가 %.1fkg이라고요? 그걸 왜 말씀...? 일단 알겠습니다.\n", weight);
 		
 	
 		
