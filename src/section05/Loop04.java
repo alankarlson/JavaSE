@@ -10,14 +10,18 @@ public class Loop04 {
 	public static void main(String[] args) {
 		int num = 0;
 		
-		System.out.println("i/j0123456");
+//		System.out.println("i/j0123456");
 		
 		for(int i = 0; i < 7; i++) {
 
 			for(int j = 0; j < i+1; j++) {
 				/*
-				 * i:0 - j: 0, 1, 2, 3, 4, 5, 6(7번 반복)
-				 * i:1 - j: 0, 1, 2, 3, 4, 5, 6(7번...)
+				 * i:0 - j: 0 (1번)
+				 * i:1 - j: 0, 1,(2번...)
+				 * .
+				 * .
+				 * .
+				 * i:6 - j: 0, 1, 2, 3, 4, 5, 6 (7번)
 				 */
 				
 				System.out.print("*");
@@ -26,7 +30,7 @@ public class Loop04 {
 //				System.out.println("i: " + i + " " + "j: " + j);
 //				num++;
 			}
-			
+																		
 			System.out.println(); // 개행
 		}
 		
