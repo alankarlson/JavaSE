@@ -1,23 +1,9 @@
-		package section05;
-/*
- * 마지막 두개가 드럽게 안찍혀서 테스트 해본거
- * 
- */
+package section05;
 
-public class HomewordPrac02 {
+public class HomeworkPrac03 {
 	public static void main(String[] args) {
 		
-		
-//		for (int c = 0; c < 2; c++) {
-//			for (int d = 1; d - c >= 0; d--) {
-//				System.out.print("*");
-//			}
-//
-//			System.out.println();
-//		}
-		
-		
-		// 숙제 2 (트리) 조건으로 연습
+		//다이아몬드 찍기
 		
 		for (int i = 0; i < 4; i++) {
 			
@@ -42,8 +28,6 @@ public class HomewordPrac02 {
 			System.out.println();
 			
 		} // 여기까지 트리 완성 
-		
-
 		
 	}
 
