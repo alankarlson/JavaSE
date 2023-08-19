@@ -33,5 +33,18 @@
 }
  */
 public class Homework02 {
-
+	public static void main(String[] args) {
+		//아래 for문 3번 반복시키기 (값 필요한 만큼 변하게 하면서)
+		
+			for (int i = 0; i < 9; i++) {
+			for (int j = 0; j <3; j++) {
+				int dan = j+2;
+				int mul = i+1;
+				int result = dan * mul;
+				System.out.printf("%d X %d = %d\t", dan, mul, result);
+			}
+			System.out.println();
+		}
 }
+}
+
