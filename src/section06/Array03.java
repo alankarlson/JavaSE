@@ -25,6 +25,12 @@ public class Array03 {
 			System.out.println(mon);
 			
 		}
+		
+		System.out.println("================");
+		
+		for (String mon : pokemon) {
+			System.out.println(mon);
+		}
 	}
 
 }

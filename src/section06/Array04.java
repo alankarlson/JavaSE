@@ -1,4 +1,4 @@
-package section06;
+	package section06;
 
 public class Array04 {
 	public static void main(String[] args) {
