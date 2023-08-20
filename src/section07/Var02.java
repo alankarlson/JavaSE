@@ -9,7 +9,7 @@ public class Var02 {
 		System.out.println("====card1====");
 		card1.getInfo();
 		
-		System.out.println("====card2====");
+		System.out.println("====card2====");    
 		card2.getInfo();
 		
 		card1.number = "Q";
