@@ -3,7 +3,7 @@ package section07;
 /*
  *  JVM(Java Virtual Machine)
  *   자바 애플리케이션을 실행하기 위한 가상머신.
- *   JVM은 운여체제와 자바 애플리케이션 사이 중계자 역할을 한다.
+ *   JVM은 운영체제와 자바 애플리케이션 사이 중계자 역할을 한다.
  * 
  *  JVM 메모리 구조
  *   1. 메서드 영역(Method Area) or 클래스 영역(Class Area)
