@@ -7,11 +7,12 @@ public class Bus extends Car {
 		type = "버스";
 	}
 	
-	@Override 
+	@Override
 	public void drive() {
+		super.drive();
 		System.out.println("승객을 태우고 운전을 합니다.");
 	}
-	
+
 	public void clickBell() {
 		System.out.println("하차전 벨을 누릅니다.");
 	}
