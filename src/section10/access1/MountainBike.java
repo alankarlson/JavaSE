@@ -9,7 +9,4 @@ public class MountainBike extends Bicycle {
 		super.getInfo();	// 부모 getInfo() 호출
 		System.out.println("isSuspension: " + isSuspension);
 	}
-	
-	
-
 }

@@ -11,6 +11,5 @@ public class Bicycle {
 		System.out.println("gear: " + gear);
 		System.out.println("wheel: " + wheel);
 	}
-	
 
 }
