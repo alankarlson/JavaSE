@@ -8,7 +8,7 @@ public class OuterClass02 {
 	inner.info();
 		
 	}
-	
+																
 	static class InnerClass {
 		public void info() {
 			System.out.println("정적내부클래스의 동적일반메서드입니다.");
