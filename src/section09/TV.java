@@ -6,7 +6,7 @@ public class TV {
 	String resolution;  // 해상도
 	int year; 			//출시년도
 	String brand;  		// 브랜드
-	
+						
 	
 	
 	public TV() { // default 생성자
@@ -24,7 +24,7 @@ public class TV {
 		this.resolution = resolution;
 		this.year = year;
 		this.brand = brand;
-		
+			
 	}
 	
 	public TV(String... options) {
@@ -32,7 +32,7 @@ public class TV {
 		getInfo();
 		System.out.println("*추가 옵션 목록*");
 		for(String option : options) {
-			System.out.println("option: " + option);
+			System.out.println("option: " + option);									
 		}
 		
 	}

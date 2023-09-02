@@ -4,8 +4,10 @@ public class Method07 {
 	public static void main(String[] args) {
 		
 		int result = add(24, 55, 77);
+		int result2 = add(11, 22);
 		
 		System.out.println("result: " + result);
+		System.out.println("result2: " + result2);
 		
 	}
 

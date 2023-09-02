@@ -3,6 +3,8 @@ package section08;
 public class Method02 {
 	public static void main(String[] args) {
 		printName("피카츄");
+		printName("라이츄");
+		
 	}
 	
 	

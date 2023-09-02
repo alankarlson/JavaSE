@@ -5,7 +5,7 @@ package section08;
  * 
  */
 
-public class MemberVO {
+public class MemberVO {							
 	
 	//private - 자기 자신 클래스에서만 접근 가능한 접근제한자
 	//접근제한자로 변수에 직접 접근하는 걸 막을 수 있음
