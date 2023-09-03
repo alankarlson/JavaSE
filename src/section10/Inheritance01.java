@@ -2,6 +2,7 @@ package section10;
 
 
 import section10.access1.Bicycle;
+import section10.access1.MiniBike;
 
 // import section10.access1.*;
 // 해당 섹션 내 클래스 전체 임포트
@@ -13,7 +14,7 @@ import section10.access1.MountainBike;
  * 	부모 클래스(상위클래스, 슈퍼클래스)와 자식클래스(하위클래스)가 있으며
  * 	자식 클래스는 부모 클래스를 상속받아 그 부모의 멤버(변수, 메서드) 사용이 가능하다.
  * 
- * 상속 방법
+ * 상속 방법	
  * 	class 자식클래스명 extends 부모클래스명
  * 
  * 패키지(Package)
@@ -58,6 +59,28 @@ public class Inheritance01 {
 		mBike.isSuspension = true;
 		
 		mBike.getInfo();
+		
+		System.out.println("==========================");
+		Bicycle bicycle2 = new MiniBike(); 
+		bicycle2.handleType = "미니핸들";
+		bicycle2.gear = 10;
+		bicycle2.wheel = 2;
+		
+		bicycle2.getInfo();
+		
+		System.out.println("==========================");
+		
+		MiniBike minibike1 = new MiniBike();
+		minibike1.handleType = "extra미니핸들";
+		minibike1.gear = 8;
+		minibike1.wheel = 3;
+		minibike1.isMini = true;
+		minibike1.mibike = 1;
+		
+		minibike1.getInfo();
+		minibike1.mibiketest();
+		
+
 	}
 	
 

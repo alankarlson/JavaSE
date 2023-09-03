@@ -12,7 +12,7 @@ import section11.access1.Bus;
 import section11.access1.Car;
 
 public class Polymorphism01 {
-	
+			
 	public static void main(String[] args) {
 		Bus bus1 = new Bus();
 		bus1.drive();
