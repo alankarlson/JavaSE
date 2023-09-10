@@ -10,7 +10,9 @@ import java.util.List;
  */
 public class Lambda02 { 
 	public static void main(String[] args) {
+		// List.of 대신 Arrays.asList 로 쓸수도 있음 -> 이렇게쓰면 배열성, 길이변경 안되고 데이터변경은 됨.
 		
+		//불변리스트 객체, JDK 9부터 지원
 		List<String> names = List.of("Apple", "Bat", "Cat", "Dog");
 		
 //		printBasic(names);
