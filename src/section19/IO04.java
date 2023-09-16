@@ -54,7 +54,7 @@ public class IO04 {
 		} finally {
 			try {
 				// 파일 닫아줌, 에러나도 종료되어야 하므로 finally 위치 주의
-				// 마지막에 나온 순서대로 ㅏㄷ아줌
+				// 마지막에 나온 순서대로 닫아줌
 				if(fos != null) fos.close();
 				if(fis != null) fis.close();
 			} catch(IOException e2) {
